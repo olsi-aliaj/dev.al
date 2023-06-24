@@ -6,3 +6,119 @@ Version: 1.0
 
 
 */
+
+/* General styling */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Playfair Display", serif;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  max-width: 85%;
+  margin: auto;
+}
+
+/* Header */
+
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+ul.header-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+ul#menu-my-main-header-menu {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+ul.header-links li {
+  display: inline;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.logo-text {
+  font-size: 24px;
+}
+.go {
+  font-weight: 900px;
+  font-size: 30px;
+}
+
+/* Footer */
+
+.top-footer,
+.bottom-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.go-travel-footer {
+  background-color: #0e3d4d;
+  color: #fff;
+}
+
+.top-footer.container a {
+  color: white;
+}
+
+.top-footer.container {
+  padding: 30px 0 15px 0;
+}
+
+.bottom-footer.container {
+  padding: 15px 0 30px 0;
+  color: #5ea0b7;
+}
+
+footer.go-travel-footer {
+  position: relative;
+}
+
+footer.go-travel-footer::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 85%;
+  height: 1px;
+  background-color: #5ea0b7ff;
+  transform: translate(-50%, -50%);
+}
+
+.footer-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
