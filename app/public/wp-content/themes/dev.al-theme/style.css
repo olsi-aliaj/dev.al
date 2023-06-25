@@ -2,6 +2,7 @@
 
 Theme Name: Dev.al Theme
 Author: Olsi Aliaj
+Text Domain: dev.al-theme
 Version: 1.0
 
 
@@ -44,13 +45,6 @@ a {
   align-items: center;
   justify-content: space-between;
   padding: 20px 0;
-}
-
-ul.header-links {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
 }
 
 ul#menu-my-main-header-menu {
@@ -121,4 +115,85 @@ footer.go-travel-footer::before {
   align-items: center;
   justify-content: center;
   gap: 15px;
+}
+
+ul#menu-footer-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Hero section */
+section.hero-section {
+  height: 80vh;
+}
+
+.hero-section {
+  position: relative;
+  /* Additional styling for the hero section */
+}
+
+.hero-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60%;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.1)
+  );
+  z-index: 1;
+}
+
+.hero-section::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+.hero-header {
+  color: white;
+  font-size: 34px;
+  width: 80%;
+  word-spacing: 3px;
+  letter-spacing: 1px;
+  z-index: 100 !important;
+  position: relative;
+  padding-bottom: 18px;
+  line-height: 40px;
+}
+
+.hero-paragraph {
+  color: white;
+  font-size: 13px;
+  letter-spacing: 1px;
+  position: relative;
+  z-index: 100;
+  padding-bottom: 30px;
+}
+
+.hero-button {
+  color: white;
+  color: white;
+  background: #d9ed82;
+  padding: 16px;
+  border-radius: 20px;
+  position: relative;
+  z-index: 100;
+  font-size: 12px;
+  font-weight: 200;
+}
+
+.hero-content {
+  position: absolute;
+  top: 170px;
+  left: 100px;
 }

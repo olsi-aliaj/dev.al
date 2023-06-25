@@ -1,5 +1,13 @@
-<?php get_header(); ?>
+<?php
+/**
+ * The main template file.
+ *
+ * @package dev.al-theme
+ */
 
-test
+get_header();
 
-<?php get_footer(); ?>
+// Output the hero section.
+get_template_part( 'template-parts/content', 'hero' );
+
+get_footer();

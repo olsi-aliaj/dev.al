@@ -7,11 +7,14 @@
       </h1>
     <div class="top-footer-links">
     <ul class="header-links">
-        <li><a href="#">Demos</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Pages</a></li>
-        <li><a href="#">Contact</a></li>
+          <li>
+            <a href="#"><?php
+              wp_nav_menu(array(
+                'theme_location' => 'footerMenuLocation'
+               ));
+              ?>
+            </a>
+          </li>
       </ul>
     </div>
   </div>
