@@ -1,18 +1,54 @@
 <?php
 
 function deval_files(){
+  // Font Awsome Icons CDN
   wp_enqueue_style('font-awsome', '//cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.css');
+  // Main CSS File
   wp_enqueue_style('deval_main_styles', get_stylesheet_uri());  
+  // Google Fonts CDN
   wp_enqueue_style('custom-google-fonts', '//fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&display=swap');  
 }
 
 add_action('wp_enqueue_scripts', 'deval_files');
 
 function deval_features() {
+  // Adding Header Navbar and Footer
   register_nav_menu('headerMenuLocation', 'Header Menu');
   register_nav_menu('footerMenuLocation', 'Footer Menu');
 }
 
 add_action('after_setup_theme', 'deval_features');
+
+function custom_theme_enqueue_styles() {
+  wp_enqueue_style( 'theme-style', get_stylesheet_uri() );
+}
+add_action( 'wp_enqueue_scripts', 'custom_theme_enqueue_styles' );
+
+
+// Register the hero block.
+
+// Register the hero block.
+function register_hero_block() {
+  if ( function_exists( 'acf_register_block_type' ) ) {
+    acf_register_block_type(
+      array(
+        'name'            => 'hero-block',
+        'title'           => __( 'Hero Block', 'dev.al-theme' ),
+        'description'     => __( 'A custom block for the hero section.', 'dev.al-theme' ),
+        'render_callback' => 'render_hero_block',
+        'category'        => 'common',
+        'icon'            => 'admin-comments',
+        'keywords'        => array( 'hero', 'section', 'dev.al-theme' ),
+      )
+    );
+  }
+}
+add_action( 'acf/init', 'register_hero_block' );
+
+
+
+// Render callback for the hero block.
+
+
 
 ?>
