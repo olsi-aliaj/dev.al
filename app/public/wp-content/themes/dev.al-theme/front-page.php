@@ -2,7 +2,7 @@
 /**
  * The template for the home page.
  *
- * @package My_Custom_Theme
+ * @package dev.al-theme
  */
 
 get_header();
@@ -14,6 +14,8 @@ while ( have_posts() ) :
     <?php
     // Output the hero section.
     get_template_part( 'template-parts/content', 'hero' );
+    //Output features section.
+    get_template_part( 'template-parts/content', 'features' );
     ?>
   </article>
   <?php
