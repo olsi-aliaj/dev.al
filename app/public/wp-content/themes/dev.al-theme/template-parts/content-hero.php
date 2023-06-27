@@ -35,4 +35,3 @@ ob_start();
 
   <?php
   echo ob_get_clean();
-

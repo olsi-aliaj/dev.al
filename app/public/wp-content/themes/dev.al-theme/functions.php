@@ -26,8 +26,6 @@ add_action( 'wp_enqueue_scripts', 'custom_theme_enqueue_styles' );
 
 
 // Register the hero block.
-
-// Register the hero block.
 function register_hero_block() {
   if ( function_exists( 'acf_register_block_type' ) ) {
     acf_register_block_type(
@@ -45,10 +43,22 @@ function register_hero_block() {
 }
 add_action( 'acf/init', 'register_hero_block' );
 
-
-
-// Render callback for the hero block.
-
+// Register the features block.
+function register_features_block() {
+  if ( function_exists( 'acf_register_block_type' ) ) {
+    acf_register_block_type(
+      array(
+        'name' => 'features-block',
+        'title' => 'Features Block',
+        'category' => 'formatting',
+        'render_callback' => 'render_features_block',
+        'icon' => 'admin-comments',
+        'keywords' => array('features', 'block'),
+      )
+    );
+  }
+}
+add_action( 'acf/init', 'register_features_block' );
 
 
 ?>
