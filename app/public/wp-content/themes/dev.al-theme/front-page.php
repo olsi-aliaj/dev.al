@@ -21,6 +21,8 @@ while ( have_posts() ) :
     get_template_part( 'template-parts/content', 'destinations' );
     //Output Booking section.
     get_template_part( 'template-parts/content', 'booking' );
+    //Output Gallery section.
+    get_template_part( 'template-parts/content', 'gallery' );
     ?>
        
   </article>

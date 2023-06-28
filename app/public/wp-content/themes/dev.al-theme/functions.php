@@ -103,5 +103,22 @@ function register_booking_block() {
 }
 add_action( 'acf/init', 'register_booking_block' );
 
+function register_gallery_block() {
+  if ( function_exists( 'acf_register_block_type' ) ) {
+    acf_register_block_type(
+      array(
+        'name'            => 'gallery-block',
+        'title'           => __( 'Gallery Block', 'dev.al-theme' ),
+        'description'     => __( 'A custom block for the gallery section.', 'dev.al-theme' ),
+        'render_callback' => 'render_gallery_block',
+        'category'        => 'common',
+        'icon'            => 'admin-comments',
+        'keywords'        => array( 'gallery', 'section', 'dev.al-theme' ),
+      )
+    );
+  }
+}
+add_action( 'acf/init', 'register_gallery_block' );
+
 
 ?>
