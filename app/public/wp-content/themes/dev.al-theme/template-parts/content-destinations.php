@@ -29,7 +29,7 @@ if ($destinations_query->have_posts()) :
                     <div class="swiper-slide">
                         <!-- Output the content for each slide -->
                         <?php if ($destination_background_photo) : ?>
-                            <div class="slide-image">
+                            <div class="slide-image gallery-image">
                                 <img class="destination-background" src="<?php echo $destination_background_photo['url']; ?>" alt="<?php echo $destination_background_photo['alt']; ?>">
                             </div>
                         <?php endif; ?>
@@ -61,19 +61,12 @@ endif;
 
 <script>
 var swiper = new Swiper('.swiper', {
-  slidesPerView: 4, // Number of slides to show at a time
+  slidesPerView: 3, // Number of slides to show at a time
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
   },
-  observer: true, // Enable observer
-  observeParents: true, // Observe parent elements
 
-  breakpoints: {
-    1250: {
-      slidesPerView: 3, // Update slidesPerView to 3 when screen width is 1400px or less
-    }
-  }
 });
 
 

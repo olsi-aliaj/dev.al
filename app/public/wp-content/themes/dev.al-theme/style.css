@@ -192,8 +192,8 @@ section.hero-section {
 .hero-button {
   color: black;
   background: #d9ed82;
-  padding: 16px;
-  border-radius: 20px;
+  padding: 8px 30px;
+  border-radius: 18px;
   position: relative;
   z-index: 100;
   font-size: 12px;
@@ -259,6 +259,7 @@ p.features-paragraph {
   flex-direction: column;
   gap: 15px;
   padding-bottom: 25px;
+  z-index: 10;
 }
 
 img.flag {
@@ -357,6 +358,16 @@ p.people-traveled-p {
   margin-bottom: 70px;
 }
 
+.gallery-small-photo {
+  position: relative;
+  display: inline-block;
+  transition: height 0.3s ease; /* Add a smooth transition effect */
+}
+
+.gallery-small-photo:hover {
+  height: calc(100% + 50px); /* Increase the height by 50px on hover */
+}
+
 /* Booking */
 
 .booking-section {
@@ -441,9 +452,114 @@ p.booking-hotel-paragraph {
   margin-top: -0.2em;
 }
 
-/* Media queries */
+/* Gallery */
 
-/* Booking */
+.gallery-section {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.four-column,
+.gallery-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery-first-row,
+.gallery-second-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding-bottom: 15px;
+}
+
+img.gallery-photo {
+  height: 300px;
+  width: 300px;
+  border-radius: 20px;
+}
+
+img.gallery-photo.nd-big {
+  width: 620px;
+  background-size: cover;
+}
+
+.gallery-heading {
+  padding-bottom: 40px;
+}
+
+.gallery-title {
+  font-size: 28px;
+}
+
+p.gallery-paragraph {
+  font-size: 14px;
+  padding-bottom: 5px;
+}
+
+.gallery-second-row {
+  padding-bottom: 40px;
+}
+
+.gallery-small-photo,
+.gallery-image {
+  position: relative;
+}
+
+.gallery-photo-heading {
+  position: absolute;
+  bottom: 45px;
+  left: 20px;
+  text-align: left;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 0;
+  z-index: 10;
+}
+
+.gallery-photo-paragraph {
+  font-size: 14px;
+  position: absolute;
+  bottom: 30px;
+  left: 20px;
+  text-align: left;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  z-index: 10;
+}
+
+.gallery-image::before {
+  content: "";
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  width: 100%;
+  height: 40%;
+  background: linear-gradient(
+    to top,
+    rgba(25, 58, 70, 0.7),
+    rgba(25, 58, 70, 0)
+  );
+  z-index: 1;
+  border-radius: 20px;
+}
+
+.gallery-image::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+/* Media queries */
 
 @media (max-width: 1400px) {
   .second-column {
