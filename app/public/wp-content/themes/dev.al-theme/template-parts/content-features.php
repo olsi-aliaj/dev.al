@@ -1,6 +1,6 @@
 <?php
 /**
- * Template part for displaying the hero section.
+ * Template part for displaying the features section.
  *
  * @package dev.al-theme
  */
