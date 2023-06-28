@@ -7,6 +7,9 @@ function deval_files(){
   wp_enqueue_style('deval_main_styles', get_stylesheet_uri());  
   // Google Fonts CDN
   wp_enqueue_style('custom-google-fonts', '//fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&display=swap');  
+  //Swiper js CDN
+  wp_enqueue_style( 'swiper', 'https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css');
+  wp_enqueue_script( 'swiper', 'https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js');
 }
 
 add_action('wp_enqueue_scripts', 'deval_files');
@@ -59,6 +62,30 @@ function register_features_block() {
   }
 }
 add_action( 'acf/init', 'register_features_block' );
+
+function register_custom_slider_post_type() {
+  $labels = array(
+      'name' => 'Destinations',
+      'singular_name' => 'Destination',
+      'menu_name' => 'Destinations',
+  );
+
+  $args = array(
+      'labels' => $labels,
+      'public' => true,
+      'has_archive' => false,
+      'publicly_queryable' => false,
+      'exclude_from_search' => true,
+      'show_ui' => true,
+      'show_in_menu' => true,
+      'menu_icon' => 'dashicons-images-alt2',
+      'supports' => array('title', 'editor', 'thumbnail'),
+  );
+
+  register_post_type('destinations', $args);
+}
+add_action('init', 'register_custom_slider_post_type');
+
 
 
 ?>

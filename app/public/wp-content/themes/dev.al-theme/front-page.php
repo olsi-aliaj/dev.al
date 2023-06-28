@@ -7,6 +7,7 @@
 
 get_header();
 
+
 while ( have_posts() ) :
   the_post();
   ?>
@@ -16,7 +17,10 @@ while ( have_posts() ) :
     get_template_part( 'template-parts/content', 'hero' );
     //Output features section.
     get_template_part( 'template-parts/content', 'features' );
+     //Output Destinations section.
+    get_template_part( 'template-parts/content', 'destinations' );
     ?>
+       
   </article>
   <?php
 endwhile;
