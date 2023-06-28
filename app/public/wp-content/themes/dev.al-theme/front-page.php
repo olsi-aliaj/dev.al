@@ -19,6 +19,8 @@ while ( have_posts() ) :
     get_template_part( 'template-parts/content', 'features' );
      //Output Destinations section.
     get_template_part( 'template-parts/content', 'destinations' );
+    //Output Booking section.
+    get_template_part( 'template-parts/content', 'booking' );
     ?>
        
   </article>

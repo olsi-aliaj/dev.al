@@ -968,3 +968,890 @@ Stack trace:
 [28-Jun-2023 11:21:49 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
 [28-Jun-2023 11:22:32 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
 [28-Jun-2023 11:22:45 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 12:17:59 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 12:18:12 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 12:18:38 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 12:32:08 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 12:32:39 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 12:33:06 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 12:40:39 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 12:44:27 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 12:45:11 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 12:45:36 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 12:47:12 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 12:50:37 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 12:56:03 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php:4415
+Stack trace:
+#0 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php(4415): ltrim(Array)
+#1 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-booking.php(50): esc_url(Array)
+#2 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(785): require('C:\\Users\\olsia\\...')
+#3 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(718): load_template('C:\\Users\\olsia\\...', false, Array)
+#4 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#5 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\front-page.php(23): get_template_part('template-parts/...', 'booking')
+#6 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\olsia\\...')
+#7 C:\Users\olsia\Local Sites\deval\app\public\wp-blog-header.php(19): require_once('C:\\Users\\olsia\\...')
+#8 C:\Users\olsia\Local Sites\deval\app\public\index.php(17): require('C:\\Users\\olsia\\...')
+#9 {main}
+  thrown in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php on line 4415
+[28-Jun-2023 12:56:03 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 12:56:48 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php:4415
+Stack trace:
+#0 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php(4415): ltrim(Array)
+#1 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-booking.php(50): esc_url(Array)
+#2 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(785): require('C:\\Users\\olsia\\...')
+#3 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(718): load_template('C:\\Users\\olsia\\...', false, Array)
+#4 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#5 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\front-page.php(23): get_template_part('template-parts/...', 'booking')
+#6 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\olsia\\...')
+#7 C:\Users\olsia\Local Sites\deval\app\public\wp-blog-header.php(19): require_once('C:\\Users\\olsia\\...')
+#8 C:\Users\olsia\Local Sites\deval\app\public\index.php(17): require('C:\\Users\\olsia\\...')
+#9 {main}
+  thrown in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php on line 4415
+[28-Jun-2023 12:56:48 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 12:56:52 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 12:57:54 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php:4415
+Stack trace:
+#0 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php(4415): ltrim(Array)
+#1 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-booking.php(50): esc_url(Array)
+#2 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(785): require('C:\\Users\\olsia\\...')
+#3 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(718): load_template('C:\\Users\\olsia\\...', false, Array)
+#4 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#5 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\front-page.php(23): get_template_part('template-parts/...', 'booking')
+#6 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\olsia\\...')
+#7 C:\Users\olsia\Local Sites\deval\app\public\wp-blog-header.php(19): require_once('C:\\Users\\olsia\\...')
+#8 C:\Users\olsia\Local Sites\deval\app\public\index.php(17): require('C:\\Users\\olsia\\...')
+#9 {main}
+  thrown in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php on line 4415
+[28-Jun-2023 12:57:54 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 12:59:46 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php:4415
+Stack trace:
+#0 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php(4415): ltrim(Array)
+#1 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-booking.php(50): esc_url(Array)
+#2 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(785): require('C:\\Users\\olsia\\...')
+#3 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(718): load_template('C:\\Users\\olsia\\...', false, Array)
+#4 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#5 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\front-page.php(23): get_template_part('template-parts/...', 'booking')
+#6 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\olsia\\...')
+#7 C:\Users\olsia\Local Sites\deval\app\public\wp-blog-header.php(19): require_once('C:\\Users\\olsia\\...')
+#8 C:\Users\olsia\Local Sites\deval\app\public\index.php(17): require('C:\\Users\\olsia\\...')
+#9 {main}
+  thrown in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php on line 4415
+[28-Jun-2023 12:59:46 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 12:59:57 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php:4415
+Stack trace:
+#0 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php(4415): ltrim(Array)
+#1 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-booking.php(50): esc_url(Array)
+#2 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(785): require('C:\\Users\\olsia\\...')
+#3 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(718): load_template('C:\\Users\\olsia\\...', false, Array)
+#4 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#5 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\front-page.php(23): get_template_part('template-parts/...', 'booking')
+#6 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\olsia\\...')
+#7 C:\Users\olsia\Local Sites\deval\app\public\wp-blog-header.php(19): require_once('C:\\Users\\olsia\\...')
+#8 C:\Users\olsia\Local Sites\deval\app\public\index.php(17): require('C:\\Users\\olsia\\...')
+#9 {main}
+  thrown in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php on line 4415
+[28-Jun-2023 12:59:57 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 13:00:18 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php:4415
+Stack trace:
+#0 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php(4415): ltrim(Array)
+#1 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-booking.php(50): esc_url(Array)
+#2 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(785): require('C:\\Users\\olsia\\...')
+#3 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(718): load_template('C:\\Users\\olsia\\...', false, Array)
+#4 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#5 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\front-page.php(23): get_template_part('template-parts/...', 'booking')
+#6 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\olsia\\...')
+#7 C:\Users\olsia\Local Sites\deval\app\public\wp-blog-header.php(19): require_once('C:\\Users\\olsia\\...')
+#8 C:\Users\olsia\Local Sites\deval\app\public\index.php(17): require('C:\\Users\\olsia\\...')
+#9 {main}
+  thrown in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php on line 4415
+[28-Jun-2023 13:00:18 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 13:00:31 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php:4415
+Stack trace:
+#0 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php(4415): ltrim(Array)
+#1 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-booking.php(50): esc_url(Array)
+#2 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(785): require('C:\\Users\\olsia\\...')
+#3 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(718): load_template('C:\\Users\\olsia\\...', false, Array)
+#4 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#5 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\front-page.php(23): get_template_part('template-parts/...', 'booking')
+#6 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\olsia\\...')
+#7 C:\Users\olsia\Local Sites\deval\app\public\wp-blog-header.php(19): require_once('C:\\Users\\olsia\\...')
+#8 C:\Users\olsia\Local Sites\deval\app\public\index.php(17): require('C:\\Users\\olsia\\...')
+#9 {main}
+  thrown in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php on line 4415
+[28-Jun-2023 13:00:31 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 13:04:26 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php:4415
+Stack trace:
+#0 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php(4415): ltrim(Array)
+#1 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-booking.php(50): esc_url(Array)
+#2 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(785): require('C:\\Users\\olsia\\...')
+#3 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(718): load_template('C:\\Users\\olsia\\...', false, Array)
+#4 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#5 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\front-page.php(23): get_template_part('template-parts/...', 'booking')
+#6 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\olsia\\...')
+#7 C:\Users\olsia\Local Sites\deval\app\public\wp-blog-header.php(19): require_once('C:\\Users\\olsia\\...')
+#8 C:\Users\olsia\Local Sites\deval\app\public\index.php(17): require('C:\\Users\\olsia\\...')
+#9 {main}
+  thrown in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php on line 4415
+[28-Jun-2023 13:04:27 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 13:04:41 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php:4415
+Stack trace:
+#0 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php(4415): ltrim(Array)
+#1 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-booking.php(50): esc_url(Array)
+#2 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(785): require('C:\\Users\\olsia\\...')
+#3 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(718): load_template('C:\\Users\\olsia\\...', false, Array)
+#4 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#5 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\front-page.php(23): get_template_part('template-parts/...', 'booking')
+#6 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\olsia\\...')
+#7 C:\Users\olsia\Local Sites\deval\app\public\wp-blog-header.php(19): require_once('C:\\Users\\olsia\\...')
+#8 C:\Users\olsia\Local Sites\deval\app\public\index.php(17): require('C:\\Users\\olsia\\...')
+#9 {main}
+  thrown in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php on line 4415
+[28-Jun-2023 13:04:41 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 13:04:55 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php:4415
+Stack trace:
+#0 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php(4415): ltrim(Array)
+#1 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-booking.php(50): esc_url(Array)
+#2 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(785): require('C:\\Users\\olsia\\...')
+#3 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(718): load_template('C:\\Users\\olsia\\...', false, Array)
+#4 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#5 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\front-page.php(23): get_template_part('template-parts/...', 'booking')
+#6 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\olsia\\...')
+#7 C:\Users\olsia\Local Sites\deval\app\public\wp-blog-header.php(19): require_once('C:\\Users\\olsia\\...')
+#8 C:\Users\olsia\Local Sites\deval\app\public\index.php(17): require('C:\\Users\\olsia\\...')
+#9 {main}
+  thrown in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php on line 4415
+[28-Jun-2023 13:04:55 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 13:05:40 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php:4415
+Stack trace:
+#0 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php(4415): ltrim(Array)
+#1 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-booking.php(50): esc_url(Array)
+#2 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(785): require('C:\\Users\\olsia\\...')
+#3 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(718): load_template('C:\\Users\\olsia\\...', false, Array)
+#4 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#5 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\front-page.php(23): get_template_part('template-parts/...', 'booking')
+#6 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\olsia\\...')
+#7 C:\Users\olsia\Local Sites\deval\app\public\wp-blog-header.php(19): require_once('C:\\Users\\olsia\\...')
+#8 C:\Users\olsia\Local Sites\deval\app\public\index.php(17): require('C:\\Users\\olsia\\...')
+#9 {main}
+  thrown in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php on line 4415
+[28-Jun-2023 13:05:40 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 13:06:34 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 13:07:41 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php:4415
+Stack trace:
+#0 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php(4415): ltrim(Array)
+#1 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-booking.php(50): esc_url(Array)
+#2 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(785): require('C:\\Users\\olsia\\...')
+#3 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(718): load_template('C:\\Users\\olsia\\...', false, Array)
+#4 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#5 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\front-page.php(23): get_template_part('template-parts/...', 'booking')
+#6 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\olsia\\...')
+#7 C:\Users\olsia\Local Sites\deval\app\public\wp-blog-header.php(19): require_once('C:\\Users\\olsia\\...')
+#8 C:\Users\olsia\Local Sites\deval\app\public\index.php(17): require('C:\\Users\\olsia\\...')
+#9 {main}
+  thrown in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php on line 4415
+[28-Jun-2023 13:07:42 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 13:08:08 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php:4415
+Stack trace:
+#0 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php(4415): ltrim(Array)
+#1 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-booking.php(50): esc_url(Array)
+#2 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(785): require('C:\\Users\\olsia\\...')
+#3 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(718): load_template('C:\\Users\\olsia\\...', false, Array)
+#4 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#5 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\front-page.php(23): get_template_part('template-parts/...', 'booking')
+#6 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\olsia\\...')
+#7 C:\Users\olsia\Local Sites\deval\app\public\wp-blog-header.php(19): require_once('C:\\Users\\olsia\\...')
+#8 C:\Users\olsia\Local Sites\deval\app\public\index.php(17): require('C:\\Users\\olsia\\...')
+#9 {main}
+  thrown in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php on line 4415
+[28-Jun-2023 13:08:08 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 13:10:37 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php:4415
+Stack trace:
+#0 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php(4415): ltrim(Array)
+#1 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-booking.php(50): esc_url(Array)
+#2 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(785): require('C:\\Users\\olsia\\...')
+#3 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(718): load_template('C:\\Users\\olsia\\...', false, Array)
+#4 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#5 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\front-page.php(23): get_template_part('template-parts/...', 'booking')
+#6 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\olsia\\...')
+#7 C:\Users\olsia\Local Sites\deval\app\public\wp-blog-header.php(19): require_once('C:\\Users\\olsia\\...')
+#8 C:\Users\olsia\Local Sites\deval\app\public\index.php(17): require('C:\\Users\\olsia\\...')
+#9 {main}
+  thrown in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php on line 4415
+[28-Jun-2023 13:10:37 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 13:10:57 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php:4415
+Stack trace:
+#0 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php(4415): ltrim(Array)
+#1 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-booking.php(50): esc_url(Array)
+#2 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(785): require('C:\\Users\\olsia\\...')
+#3 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(718): load_template('C:\\Users\\olsia\\...', false, Array)
+#4 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#5 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\front-page.php(23): get_template_part('template-parts/...', 'booking')
+#6 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\olsia\\...')
+#7 C:\Users\olsia\Local Sites\deval\app\public\wp-blog-header.php(19): require_once('C:\\Users\\olsia\\...')
+#8 C:\Users\olsia\Local Sites\deval\app\public\index.php(17): require('C:\\Users\\olsia\\...')
+#9 {main}
+  thrown in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php on line 4415
+[28-Jun-2023 13:10:57 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 13:11:05 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php:4415
+Stack trace:
+#0 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php(4415): ltrim(Array)
+#1 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-booking.php(50): esc_url(Array)
+#2 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(785): require('C:\\Users\\olsia\\...')
+#3 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(718): load_template('C:\\Users\\olsia\\...', false, Array)
+#4 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#5 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\front-page.php(23): get_template_part('template-parts/...', 'booking')
+#6 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\olsia\\...')
+#7 C:\Users\olsia\Local Sites\deval\app\public\wp-blog-header.php(19): require_once('C:\\Users\\olsia\\...')
+#8 C:\Users\olsia\Local Sites\deval\app\public\index.php(17): require('C:\\Users\\olsia\\...')
+#9 {main}
+  thrown in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php on line 4415
+[28-Jun-2023 13:11:05 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 13:11:10 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php:4415
+Stack trace:
+#0 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php(4415): ltrim(Array)
+#1 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-booking.php(50): esc_url(Array)
+#2 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(785): require('C:\\Users\\olsia\\...')
+#3 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(718): load_template('C:\\Users\\olsia\\...', false, Array)
+#4 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#5 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\front-page.php(23): get_template_part('template-parts/...', 'booking')
+#6 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\olsia\\...')
+#7 C:\Users\olsia\Local Sites\deval\app\public\wp-blog-header.php(19): require_once('C:\\Users\\olsia\\...')
+#8 C:\Users\olsia\Local Sites\deval\app\public\index.php(17): require('C:\\Users\\olsia\\...')
+#9 {main}
+  thrown in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php on line 4415
+[28-Jun-2023 13:11:10 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 13:11:20 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php:4415
+Stack trace:
+#0 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php(4415): ltrim(Array)
+#1 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-booking.php(50): esc_url(Array)
+#2 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(785): require('C:\\Users\\olsia\\...')
+#3 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(718): load_template('C:\\Users\\olsia\\...', false, Array)
+#4 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#5 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\front-page.php(23): get_template_part('template-parts/...', 'booking')
+#6 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\olsia\\...')
+#7 C:\Users\olsia\Local Sites\deval\app\public\wp-blog-header.php(19): require_once('C:\\Users\\olsia\\...')
+#8 C:\Users\olsia\Local Sites\deval\app\public\index.php(17): require('C:\\Users\\olsia\\...')
+#9 {main}
+  thrown in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php on line 4415
+[28-Jun-2023 13:11:20 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 13:11:26 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php:4415
+Stack trace:
+#0 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php(4415): ltrim(Array)
+#1 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-booking.php(50): esc_url(Array)
+#2 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(785): require('C:\\Users\\olsia\\...')
+#3 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(718): load_template('C:\\Users\\olsia\\...', false, Array)
+#4 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#5 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\front-page.php(23): get_template_part('template-parts/...', 'booking')
+#6 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\olsia\\...')
+#7 C:\Users\olsia\Local Sites\deval\app\public\wp-blog-header.php(19): require_once('C:\\Users\\olsia\\...')
+#8 C:\Users\olsia\Local Sites\deval\app\public\index.php(17): require('C:\\Users\\olsia\\...')
+#9 {main}
+  thrown in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php on line 4415
+[28-Jun-2023 13:11:26 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 13:11:31 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php:4415
+Stack trace:
+#0 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php(4415): ltrim(Array)
+#1 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-booking.php(50): esc_url(Array)
+#2 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(785): require('C:\\Users\\olsia\\...')
+#3 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(718): load_template('C:\\Users\\olsia\\...', false, Array)
+#4 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#5 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\front-page.php(23): get_template_part('template-parts/...', 'booking')
+#6 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\olsia\\...')
+#7 C:\Users\olsia\Local Sites\deval\app\public\wp-blog-header.php(19): require_once('C:\\Users\\olsia\\...')
+#8 C:\Users\olsia\Local Sites\deval\app\public\index.php(17): require('C:\\Users\\olsia\\...')
+#9 {main}
+  thrown in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php on line 4415
+[28-Jun-2023 13:11:31 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 13:12:37 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 13:13:14 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php:4415
+Stack trace:
+#0 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php(4415): ltrim(Array)
+#1 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-booking.php(50): esc_url(Array)
+#2 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(785): require('C:\\Users\\olsia\\...')
+#3 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(718): load_template('C:\\Users\\olsia\\...', false, Array)
+#4 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#5 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\front-page.php(23): get_template_part('template-parts/...', 'booking')
+#6 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\olsia\\...')
+#7 C:\Users\olsia\Local Sites\deval\app\public\wp-blog-header.php(19): require_once('C:\\Users\\olsia\\...')
+#8 C:\Users\olsia\Local Sites\deval\app\public\index.php(17): require('C:\\Users\\olsia\\...')
+#9 {main}
+  thrown in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php on line 4415
+[28-Jun-2023 13:13:15 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 13:13:35 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php:4415
+Stack trace:
+#0 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php(4415): ltrim(Array)
+#1 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-booking.php(50): esc_url(Array)
+#2 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(785): require('C:\\Users\\olsia\\...')
+#3 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(718): load_template('C:\\Users\\olsia\\...', false, Array)
+#4 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#5 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\front-page.php(23): get_template_part('template-parts/...', 'booking')
+#6 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\olsia\\...')
+#7 C:\Users\olsia\Local Sites\deval\app\public\wp-blog-header.php(19): require_once('C:\\Users\\olsia\\...')
+#8 C:\Users\olsia\Local Sites\deval\app\public\index.php(17): require('C:\\Users\\olsia\\...')
+#9 {main}
+  thrown in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php on line 4415
+[28-Jun-2023 13:13:35 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 13:13:44 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php:4415
+Stack trace:
+#0 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php(4415): ltrim(Array)
+#1 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-booking.php(44): esc_url(Array)
+#2 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(785): require('C:\\Users\\olsia\\...')
+#3 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(718): load_template('C:\\Users\\olsia\\...', false, Array)
+#4 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#5 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\front-page.php(23): get_template_part('template-parts/...', 'booking')
+#6 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\olsia\\...')
+#7 C:\Users\olsia\Local Sites\deval\app\public\wp-blog-header.php(19): require_once('C:\\Users\\olsia\\...')
+#8 C:\Users\olsia\Local Sites\deval\app\public\index.php(17): require('C:\\Users\\olsia\\...')
+#9 {main}
+  thrown in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php on line 4415
+[28-Jun-2023 13:13:44 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 13:13:59 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php:4415
+Stack trace:
+#0 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php(4415): ltrim(Array)
+#1 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-booking.php(50): esc_url(Array)
+#2 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(785): require('C:\\Users\\olsia\\...')
+#3 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(718): load_template('C:\\Users\\olsia\\...', false, Array)
+#4 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#5 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\front-page.php(23): get_template_part('template-parts/...', 'booking')
+#6 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\olsia\\...')
+#7 C:\Users\olsia\Local Sites\deval\app\public\wp-blog-header.php(19): require_once('C:\\Users\\olsia\\...')
+#8 C:\Users\olsia\Local Sites\deval\app\public\index.php(17): require('C:\\Users\\olsia\\...')
+#9 {main}
+  thrown in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php on line 4415
+[28-Jun-2023 13:13:59 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 13:14:11 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php:4415
+Stack trace:
+#0 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php(4415): ltrim(Array)
+#1 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-booking.php(53): esc_url(Array)
+#2 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(785): require('C:\\Users\\olsia\\...')
+#3 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(718): load_template('C:\\Users\\olsia\\...', false, Array)
+#4 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#5 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\front-page.php(23): get_template_part('template-parts/...', 'booking')
+#6 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\olsia\\...')
+#7 C:\Users\olsia\Local Sites\deval\app\public\wp-blog-header.php(19): require_once('C:\\Users\\olsia\\...')
+#8 C:\Users\olsia\Local Sites\deval\app\public\index.php(17): require('C:\\Users\\olsia\\...')
+#9 {main}
+  thrown in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php on line 4415
+[28-Jun-2023 13:14:11 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 13:14:29 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php:4415
+Stack trace:
+#0 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php(4415): ltrim(Array)
+#1 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-booking.php(51): esc_url(Array)
+#2 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(785): require('C:\\Users\\olsia\\...')
+#3 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(718): load_template('C:\\Users\\olsia\\...', false, Array)
+#4 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#5 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\front-page.php(23): get_template_part('template-parts/...', 'booking')
+#6 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\olsia\\...')
+#7 C:\Users\olsia\Local Sites\deval\app\public\wp-blog-header.php(19): require_once('C:\\Users\\olsia\\...')
+#8 C:\Users\olsia\Local Sites\deval\app\public\index.php(17): require('C:\\Users\\olsia\\...')
+#9 {main}
+  thrown in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php on line 4415
+[28-Jun-2023 13:14:29 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 13:14:31 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php:4415
+Stack trace:
+#0 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php(4415): ltrim(Array)
+#1 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-booking.php(51): esc_url(Array)
+#2 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(785): require('C:\\Users\\olsia\\...')
+#3 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(718): load_template('C:\\Users\\olsia\\...', false, Array)
+#4 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#5 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\front-page.php(23): get_template_part('template-parts/...', 'booking')
+#6 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\olsia\\...')
+#7 C:\Users\olsia\Local Sites\deval\app\public\wp-blog-header.php(19): require_once('C:\\Users\\olsia\\...')
+#8 C:\Users\olsia\Local Sites\deval\app\public\index.php(17): require('C:\\Users\\olsia\\...')
+#9 {main}
+  thrown in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php on line 4415
+[28-Jun-2023 13:14:31 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 13:14:38 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 13:15:01 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php:4415
+Stack trace:
+#0 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php(4415): ltrim(Array)
+#1 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-booking.php(53): esc_url(Array)
+#2 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(785): require('C:\\Users\\olsia\\...')
+#3 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(718): load_template('C:\\Users\\olsia\\...', false, Array)
+#4 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#5 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\front-page.php(23): get_template_part('template-parts/...', 'booking')
+#6 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\olsia\\...')
+#7 C:\Users\olsia\Local Sites\deval\app\public\wp-blog-header.php(19): require_once('C:\\Users\\olsia\\...')
+#8 C:\Users\olsia\Local Sites\deval\app\public\index.php(17): require('C:\\Users\\olsia\\...')
+#9 {main}
+  thrown in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php on line 4415
+[28-Jun-2023 13:15:01 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 13:15:30 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php:4415
+Stack trace:
+#0 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php(4415): ltrim(Array)
+#1 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-booking.php(50): esc_url(Array)
+#2 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(785): require('C:\\Users\\olsia\\...')
+#3 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(718): load_template('C:\\Users\\olsia\\...', false, Array)
+#4 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#5 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\front-page.php(23): get_template_part('template-parts/...', 'booking')
+#6 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\olsia\\...')
+#7 C:\Users\olsia\Local Sites\deval\app\public\wp-blog-header.php(19): require_once('C:\\Users\\olsia\\...')
+#8 C:\Users\olsia\Local Sites\deval\app\public\index.php(17): require('C:\\Users\\olsia\\...')
+#9 {main}
+  thrown in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php on line 4415
+[28-Jun-2023 13:15:30 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 13:15:44 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php:4415
+Stack trace:
+#0 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php(4415): ltrim(Array)
+#1 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-booking.php(50): esc_url(Array)
+#2 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(785): require('C:\\Users\\olsia\\...')
+#3 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(718): load_template('C:\\Users\\olsia\\...', false, Array)
+#4 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#5 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\front-page.php(23): get_template_part('template-parts/...', 'booking')
+#6 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\olsia\\...')
+#7 C:\Users\olsia\Local Sites\deval\app\public\wp-blog-header.php(19): require_once('C:\\Users\\olsia\\...')
+#8 C:\Users\olsia\Local Sites\deval\app\public\index.php(17): require('C:\\Users\\olsia\\...')
+#9 {main}
+  thrown in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php on line 4415
+[28-Jun-2023 13:15:44 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 13:15:48 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php:4415
+Stack trace:
+#0 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php(4415): ltrim(Array)
+#1 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-booking.php(50): esc_url(Array)
+#2 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(785): require('C:\\Users\\olsia\\...')
+#3 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(718): load_template('C:\\Users\\olsia\\...', false, Array)
+#4 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#5 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\front-page.php(23): get_template_part('template-parts/...', 'booking')
+#6 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\olsia\\...')
+#7 C:\Users\olsia\Local Sites\deval\app\public\wp-blog-header.php(19): require_once('C:\\Users\\olsia\\...')
+#8 C:\Users\olsia\Local Sites\deval\app\public\index.php(17): require('C:\\Users\\olsia\\...')
+#9 {main}
+  thrown in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php on line 4415
+[28-Jun-2023 13:15:49 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 13:16:29 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php:4415
+Stack trace:
+#0 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php(4415): ltrim(Array)
+#1 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-booking.php(47): esc_url(Array)
+#2 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(785): require('C:\\Users\\olsia\\...')
+#3 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(718): load_template('C:\\Users\\olsia\\...', false, Array)
+#4 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#5 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\front-page.php(23): get_template_part('template-parts/...', 'booking')
+#6 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\olsia\\...')
+#7 C:\Users\olsia\Local Sites\deval\app\public\wp-blog-header.php(19): require_once('C:\\Users\\olsia\\...')
+#8 C:\Users\olsia\Local Sites\deval\app\public\index.php(17): require('C:\\Users\\olsia\\...')
+#9 {main}
+  thrown in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php on line 4415
+[28-Jun-2023 13:16:29 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 13:16:34 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php:4415
+Stack trace:
+#0 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php(4415): ltrim(Array)
+#1 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-booking.php(59): esc_url(Array)
+#2 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(785): require('C:\\Users\\olsia\\...')
+#3 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(718): load_template('C:\\Users\\olsia\\...', false, Array)
+#4 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#5 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\front-page.php(23): get_template_part('template-parts/...', 'booking')
+#6 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\olsia\\...')
+#7 C:\Users\olsia\Local Sites\deval\app\public\wp-blog-header.php(19): require_once('C:\\Users\\olsia\\...')
+#8 C:\Users\olsia\Local Sites\deval\app\public\index.php(17): require('C:\\Users\\olsia\\...')
+#9 {main}
+  thrown in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php on line 4415
+[28-Jun-2023 13:16:34 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 13:17:04 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php:4415
+Stack trace:
+#0 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php(4415): ltrim(Array)
+#1 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-booking.php(59): esc_url(Array)
+#2 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(785): require('C:\\Users\\olsia\\...')
+#3 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(718): load_template('C:\\Users\\olsia\\...', false, Array)
+#4 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#5 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\front-page.php(23): get_template_part('template-parts/...', 'booking')
+#6 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\olsia\\...')
+#7 C:\Users\olsia\Local Sites\deval\app\public\wp-blog-header.php(19): require_once('C:\\Users\\olsia\\...')
+#8 C:\Users\olsia\Local Sites\deval\app\public\index.php(17): require('C:\\Users\\olsia\\...')
+#9 {main}
+  thrown in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php on line 4415
+[28-Jun-2023 13:17:04 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 13:17:10 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 13:17:37 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php:4415
+Stack trace:
+#0 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php(4415): ltrim(Array)
+#1 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-booking.php(59): esc_url(Array)
+#2 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(785): require('C:\\Users\\olsia\\...')
+#3 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(718): load_template('C:\\Users\\olsia\\...', false, Array)
+#4 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#5 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\front-page.php(23): get_template_part('template-parts/...', 'booking')
+#6 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\olsia\\...')
+#7 C:\Users\olsia\Local Sites\deval\app\public\wp-blog-header.php(19): require_once('C:\\Users\\olsia\\...')
+#8 C:\Users\olsia\Local Sites\deval\app\public\index.php(17): require('C:\\Users\\olsia\\...')
+#9 {main}
+  thrown in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php on line 4415
+[28-Jun-2023 13:17:37 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 13:18:08 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 13:18:33 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php:4415
+Stack trace:
+#0 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php(4415): ltrim(Array)
+#1 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-booking.php(59): esc_url(Array)
+#2 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(785): require('C:\\Users\\olsia\\...')
+#3 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(718): load_template('C:\\Users\\olsia\\...', false, Array)
+#4 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#5 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\front-page.php(23): get_template_part('template-parts/...', 'booking')
+#6 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\olsia\\...')
+#7 C:\Users\olsia\Local Sites\deval\app\public\wp-blog-header.php(19): require_once('C:\\Users\\olsia\\...')
+#8 C:\Users\olsia\Local Sites\deval\app\public\index.php(17): require('C:\\Users\\olsia\\...')
+#9 {main}
+  thrown in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php on line 4415
+[28-Jun-2023 13:18:33 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 13:20:13 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php:4415
+Stack trace:
+#0 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php(4415): ltrim(Array)
+#1 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-booking.php(59): esc_url(Array)
+#2 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(785): require('C:\\Users\\olsia\\...')
+#3 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(718): load_template('C:\\Users\\olsia\\...', false, Array)
+#4 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#5 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\front-page.php(23): get_template_part('template-parts/...', 'booking')
+#6 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\olsia\\...')
+#7 C:\Users\olsia\Local Sites\deval\app\public\wp-blog-header.php(19): require_once('C:\\Users\\olsia\\...')
+#8 C:\Users\olsia\Local Sites\deval\app\public\index.php(17): require('C:\\Users\\olsia\\...')
+#9 {main}
+  thrown in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php on line 4415
+[28-Jun-2023 13:20:13 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 13:22:58 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php:4415
+Stack trace:
+#0 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php(4415): ltrim(Array)
+#1 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-booking.php(59): esc_url(Array)
+#2 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(785): require('C:\\Users\\olsia\\...')
+#3 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(718): load_template('C:\\Users\\olsia\\...', false, Array)
+#4 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#5 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\front-page.php(23): get_template_part('template-parts/...', 'booking')
+#6 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\olsia\\...')
+#7 C:\Users\olsia\Local Sites\deval\app\public\wp-blog-header.php(19): require_once('C:\\Users\\olsia\\...')
+#8 C:\Users\olsia\Local Sites\deval\app\public\index.php(17): require('C:\\Users\\olsia\\...')
+#9 {main}
+  thrown in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php on line 4415
+[28-Jun-2023 13:22:58 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 13:23:05 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php:4415
+Stack trace:
+#0 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php(4415): ltrim(Array)
+#1 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-booking.php(59): esc_url(Array)
+#2 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(785): require('C:\\Users\\olsia\\...')
+#3 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(718): load_template('C:\\Users\\olsia\\...', false, Array)
+#4 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#5 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\front-page.php(23): get_template_part('template-parts/...', 'booking')
+#6 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\olsia\\...')
+#7 C:\Users\olsia\Local Sites\deval\app\public\wp-blog-header.php(19): require_once('C:\\Users\\olsia\\...')
+#8 C:\Users\olsia\Local Sites\deval\app\public\index.php(17): require('C:\\Users\\olsia\\...')
+#9 {main}
+  thrown in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php on line 4415
+[28-Jun-2023 13:23:05 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 13:23:11 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php:4415
+Stack trace:
+#0 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php(4415): ltrim(Array)
+#1 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-booking.php(59): esc_url(Array)
+#2 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(785): require('C:\\Users\\olsia\\...')
+#3 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(718): load_template('C:\\Users\\olsia\\...', false, Array)
+#4 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#5 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\front-page.php(23): get_template_part('template-parts/...', 'booking')
+#6 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\olsia\\...')
+#7 C:\Users\olsia\Local Sites\deval\app\public\wp-blog-header.php(19): require_once('C:\\Users\\olsia\\...')
+#8 C:\Users\olsia\Local Sites\deval\app\public\index.php(17): require('C:\\Users\\olsia\\...')
+#9 {main}
+  thrown in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php on line 4415
+[28-Jun-2023 13:23:12 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 13:25:25 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php:4415
+Stack trace:
+#0 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php(4415): ltrim(Array)
+#1 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-booking.php(59): esc_url(Array)
+#2 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(785): require('C:\\Users\\olsia\\...')
+#3 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(718): load_template('C:\\Users\\olsia\\...', false, Array)
+#4 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#5 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\front-page.php(23): get_template_part('template-parts/...', 'booking')
+#6 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\olsia\\...')
+#7 C:\Users\olsia\Local Sites\deval\app\public\wp-blog-header.php(19): require_once('C:\\Users\\olsia\\...')
+#8 C:\Users\olsia\Local Sites\deval\app\public\index.php(17): require('C:\\Users\\olsia\\...')
+#9 {main}
+  thrown in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php on line 4415
+[28-Jun-2023 13:25:25 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 13:26:38 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php:4415
+Stack trace:
+#0 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php(4415): ltrim(Array)
+#1 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-booking.php(59): esc_url(Array)
+#2 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(785): require('C:\\Users\\olsia\\...')
+#3 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(718): load_template('C:\\Users\\olsia\\...', false, Array)
+#4 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#5 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\front-page.php(23): get_template_part('template-parts/...', 'booking')
+#6 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\olsia\\...')
+#7 C:\Users\olsia\Local Sites\deval\app\public\wp-blog-header.php(19): require_once('C:\\Users\\olsia\\...')
+#8 C:\Users\olsia\Local Sites\deval\app\public\index.php(17): require('C:\\Users\\olsia\\...')
+#9 {main}
+  thrown in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php on line 4415
+[28-Jun-2023 13:26:38 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 13:27:12 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php:4415
+Stack trace:
+#0 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php(4415): ltrim(Array)
+#1 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-booking.php(59): esc_url(Array)
+#2 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(785): require('C:\\Users\\olsia\\...')
+#3 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(718): load_template('C:\\Users\\olsia\\...', false, Array)
+#4 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#5 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\front-page.php(23): get_template_part('template-parts/...', 'booking')
+#6 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\olsia\\...')
+#7 C:\Users\olsia\Local Sites\deval\app\public\wp-blog-header.php(19): require_once('C:\\Users\\olsia\\...')
+#8 C:\Users\olsia\Local Sites\deval\app\public\index.php(17): require('C:\\Users\\olsia\\...')
+#9 {main}
+  thrown in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php on line 4415
+[28-Jun-2023 13:27:12 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 13:27:21 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php:4415
+Stack trace:
+#0 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php(4415): ltrim(Array)
+#1 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-booking.php(59): esc_url(Array)
+#2 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(785): require('C:\\Users\\olsia\\...')
+#3 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(718): load_template('C:\\Users\\olsia\\...', false, Array)
+#4 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#5 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\front-page.php(23): get_template_part('template-parts/...', 'booking')
+#6 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\olsia\\...')
+#7 C:\Users\olsia\Local Sites\deval\app\public\wp-blog-header.php(19): require_once('C:\\Users\\olsia\\...')
+#8 C:\Users\olsia\Local Sites\deval\app\public\index.php(17): require('C:\\Users\\olsia\\...')
+#9 {main}
+  thrown in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php on line 4415
+[28-Jun-2023 13:27:21 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 13:27:33 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php:4415
+Stack trace:
+#0 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php(4415): ltrim(Array)
+#1 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-booking.php(59): esc_url(Array)
+#2 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(785): require('C:\\Users\\olsia\\...')
+#3 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(718): load_template('C:\\Users\\olsia\\...', false, Array)
+#4 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#5 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\front-page.php(23): get_template_part('template-parts/...', 'booking')
+#6 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\olsia\\...')
+#7 C:\Users\olsia\Local Sites\deval\app\public\wp-blog-header.php(19): require_once('C:\\Users\\olsia\\...')
+#8 C:\Users\olsia\Local Sites\deval\app\public\index.php(17): require('C:\\Users\\olsia\\...')
+#9 {main}
+  thrown in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php on line 4415
+[28-Jun-2023 13:27:34 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 13:30:19 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php:4415
+Stack trace:
+#0 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php(4415): ltrim(Array)
+#1 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-booking.php(59): esc_url(Array)
+#2 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(785): require('C:\\Users\\olsia\\...')
+#3 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(718): load_template('C:\\Users\\olsia\\...', false, Array)
+#4 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#5 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\front-page.php(23): get_template_part('template-parts/...', 'booking')
+#6 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\olsia\\...')
+#7 C:\Users\olsia\Local Sites\deval\app\public\wp-blog-header.php(19): require_once('C:\\Users\\olsia\\...')
+#8 C:\Users\olsia\Local Sites\deval\app\public\index.php(17): require('C:\\Users\\olsia\\...')
+#9 {main}
+  thrown in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php on line 4415
+[28-Jun-2023 13:30:19 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 13:30:31 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php:4415
+Stack trace:
+#0 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php(4415): ltrim(Array)
+#1 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-booking.php(59): esc_url(Array)
+#2 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(785): require('C:\\Users\\olsia\\...')
+#3 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(718): load_template('C:\\Users\\olsia\\...', false, Array)
+#4 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#5 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\front-page.php(23): get_template_part('template-parts/...', 'booking')
+#6 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\olsia\\...')
+#7 C:\Users\olsia\Local Sites\deval\app\public\wp-blog-header.php(19): require_once('C:\\Users\\olsia\\...')
+#8 C:\Users\olsia\Local Sites\deval\app\public\index.php(17): require('C:\\Users\\olsia\\...')
+#9 {main}
+  thrown in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php on line 4415
+[28-Jun-2023 13:30:31 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 13:31:08 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php:4415
+Stack trace:
+#0 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php(4415): ltrim(Array)
+#1 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-booking.php(59): esc_url(Array)
+#2 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(785): require('C:\\Users\\olsia\\...')
+#3 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(718): load_template('C:\\Users\\olsia\\...', false, Array)
+#4 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#5 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\front-page.php(23): get_template_part('template-parts/...', 'booking')
+#6 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\olsia\\...')
+#7 C:\Users\olsia\Local Sites\deval\app\public\wp-blog-header.php(19): require_once('C:\\Users\\olsia\\...')
+#8 C:\Users\olsia\Local Sites\deval\app\public\index.php(17): require('C:\\Users\\olsia\\...')
+#9 {main}
+  thrown in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php on line 4415
+[28-Jun-2023 13:31:08 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 13:31:18 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 13:31:37 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php:4415
+Stack trace:
+#0 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php(4415): ltrim(Array)
+#1 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-booking.php(59): esc_url(Array)
+#2 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(785): require('C:\\Users\\olsia\\...')
+#3 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(718): load_template('C:\\Users\\olsia\\...', false, Array)
+#4 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#5 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\front-page.php(23): get_template_part('template-parts/...', 'booking')
+#6 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\olsia\\...')
+#7 C:\Users\olsia\Local Sites\deval\app\public\wp-blog-header.php(19): require_once('C:\\Users\\olsia\\...')
+#8 C:\Users\olsia\Local Sites\deval\app\public\index.php(17): require('C:\\Users\\olsia\\...')
+#9 {main}
+  thrown in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php on line 4415
+[28-Jun-2023 13:31:37 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 13:32:07 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php:4415
+Stack trace:
+#0 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php(4415): ltrim(Array)
+#1 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-booking.php(59): esc_url(Array)
+#2 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(785): require('C:\\Users\\olsia\\...')
+#3 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(718): load_template('C:\\Users\\olsia\\...', false, Array)
+#4 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#5 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\front-page.php(23): get_template_part('template-parts/...', 'booking')
+#6 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\olsia\\...')
+#7 C:\Users\olsia\Local Sites\deval\app\public\wp-blog-header.php(19): require_once('C:\\Users\\olsia\\...')
+#8 C:\Users\olsia\Local Sites\deval\app\public\index.php(17): require('C:\\Users\\olsia\\...')
+#9 {main}
+  thrown in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php on line 4415
+[28-Jun-2023 13:32:07 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 13:32:22 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php:4415
+Stack trace:
+#0 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php(4415): ltrim(Array)
+#1 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-booking.php(59): esc_url(Array)
+#2 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(785): require('C:\\Users\\olsia\\...')
+#3 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(718): load_template('C:\\Users\\olsia\\...', false, Array)
+#4 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#5 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\front-page.php(23): get_template_part('template-parts/...', 'booking')
+#6 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\olsia\\...')
+#7 C:\Users\olsia\Local Sites\deval\app\public\wp-blog-header.php(19): require_once('C:\\Users\\olsia\\...')
+#8 C:\Users\olsia\Local Sites\deval\app\public\index.php(17): require('C:\\Users\\olsia\\...')
+#9 {main}
+  thrown in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php on line 4415
+[28-Jun-2023 13:32:22 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 13:33:18 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php:4415
+Stack trace:
+#0 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php(4415): ltrim(Array)
+#1 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-booking.php(59): esc_url(Array)
+#2 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(785): require('C:\\Users\\olsia\\...')
+#3 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(718): load_template('C:\\Users\\olsia\\...', false, Array)
+#4 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#5 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\front-page.php(23): get_template_part('template-parts/...', 'booking')
+#6 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\olsia\\...')
+#7 C:\Users\olsia\Local Sites\deval\app\public\wp-blog-header.php(19): require_once('C:\\Users\\olsia\\...')
+#8 C:\Users\olsia\Local Sites\deval\app\public\index.php(17): require('C:\\Users\\olsia\\...')
+#9 {main}
+  thrown in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php on line 4415
+[28-Jun-2023 13:33:18 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 13:34:22 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php:4415
+Stack trace:
+#0 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php(4415): ltrim(Array)
+#1 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-booking.php(59): esc_url(Array)
+#2 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(785): require('C:\\Users\\olsia\\...')
+#3 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(718): load_template('C:\\Users\\olsia\\...', false, Array)
+#4 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#5 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\front-page.php(23): get_template_part('template-parts/...', 'booking')
+#6 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\olsia\\...')
+#7 C:\Users\olsia\Local Sites\deval\app\public\wp-blog-header.php(19): require_once('C:\\Users\\olsia\\...')
+#8 C:\Users\olsia\Local Sites\deval\app\public\index.php(17): require('C:\\Users\\olsia\\...')
+#9 {main}
+  thrown in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php on line 4415
+[28-Jun-2023 13:34:23 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 13:34:49 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php:4415
+Stack trace:
+#0 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php(4415): ltrim(Array)
+#1 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-booking.php(59): esc_url(Array)
+#2 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(785): require('C:\\Users\\olsia\\...')
+#3 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(718): load_template('C:\\Users\\olsia\\...', false, Array)
+#4 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#5 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\front-page.php(23): get_template_part('template-parts/...', 'booking')
+#6 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\olsia\\...')
+#7 C:\Users\olsia\Local Sites\deval\app\public\wp-blog-header.php(19): require_once('C:\\Users\\olsia\\...')
+#8 C:\Users\olsia\Local Sites\deval\app\public\index.php(17): require('C:\\Users\\olsia\\...')
+#9 {main}
+  thrown in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php on line 4415
+[28-Jun-2023 13:34:49 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 13:35:22 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php:4415
+Stack trace:
+#0 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php(4415): ltrim(Array)
+#1 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-booking.php(59): esc_url(Array)
+#2 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(785): require('C:\\Users\\olsia\\...')
+#3 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(718): load_template('C:\\Users\\olsia\\...', false, Array)
+#4 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#5 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\front-page.php(23): get_template_part('template-parts/...', 'booking')
+#6 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\olsia\\...')
+#7 C:\Users\olsia\Local Sites\deval\app\public\wp-blog-header.php(19): require_once('C:\\Users\\olsia\\...')
+#8 C:\Users\olsia\Local Sites\deval\app\public\index.php(17): require('C:\\Users\\olsia\\...')
+#9 {main}
+  thrown in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php on line 4415
+[28-Jun-2023 13:35:22 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 13:50:31 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php:4415
+Stack trace:
+#0 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php(4415): ltrim(Array)
+#1 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-booking.php(59): esc_url(Array)
+#2 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(785): require('C:\\Users\\olsia\\...')
+#3 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(718): load_template('C:\\Users\\olsia\\...', false, Array)
+#4 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#5 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\front-page.php(23): get_template_part('template-parts/...', 'booking')
+#6 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\olsia\\...')
+#7 C:\Users\olsia\Local Sites\deval\app\public\wp-blog-header.php(19): require_once('C:\\Users\\olsia\\...')
+#8 C:\Users\olsia\Local Sites\deval\app\public\index.php(17): require('C:\\Users\\olsia\\...')
+#9 {main}
+  thrown in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php on line 4415
+[28-Jun-2023 13:50:32 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 13:50:59 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php:4415
+Stack trace:
+#0 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php(4415): ltrim(Array)
+#1 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-booking.php(59): esc_url(Array)
+#2 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(785): require('C:\\Users\\olsia\\...')
+#3 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(718): load_template('C:\\Users\\olsia\\...', false, Array)
+#4 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#5 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\front-page.php(23): get_template_part('template-parts/...', 'booking')
+#6 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\olsia\\...')
+#7 C:\Users\olsia\Local Sites\deval\app\public\wp-blog-header.php(19): require_once('C:\\Users\\olsia\\...')
+#8 C:\Users\olsia\Local Sites\deval\app\public\index.php(17): require('C:\\Users\\olsia\\...')
+#9 {main}
+  thrown in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php on line 4415
+[28-Jun-2023 13:51:00 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 13:52:02 UTC] PHP Fatal error:  Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php:4415
+Stack trace:
+#0 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php(4415): ltrim(Array)
+#1 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-booking.php(59): esc_url(Array)
+#2 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(785): require('C:\\Users\\olsia\\...')
+#3 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template.php(718): load_template('C:\\Users\\olsia\\...', false, Array)
+#4 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#5 C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\front-page.php(23): get_template_part('template-parts/...', 'booking')
+#6 C:\Users\olsia\Local Sites\deval\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\olsia\\...')
+#7 C:\Users\olsia\Local Sites\deval\app\public\wp-blog-header.php(19): require_once('C:\\Users\\olsia\\...')
+#8 C:\Users\olsia\Local Sites\deval\app\public\index.php(17): require('C:\\Users\\olsia\\...')
+#9 {main}
+  thrown in C:\Users\olsia\Local Sites\deval\app\public\wp-includes\formatting.php on line 4415
+[28-Jun-2023 13:52:02 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 13:53:16 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 13:53:19 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 13:53:19 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 13:53:19 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 13:54:06 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 13:54:26 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 13:54:54 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 13:55:26 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 13:55:48 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 13:56:49 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 13:56:54 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 13:57:47 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 13:57:53 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 14:00:04 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 14:01:57 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 14:02:21 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 14:02:55 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 14:03:03 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 14:03:09 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 14:03:23 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 14:03:35 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 14:03:54 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 14:05:00 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 14:05:38 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 14:06:12 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 14:06:22 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 14:07:05 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 14:08:03 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 14:09:18 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 14:09:57 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 14:10:43 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 14:10:48 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 14:12:01 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 14:15:14 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 14:15:59 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 14:16:19 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 14:16:31 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 14:20:44 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 14:21:16 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 14:21:42 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 14:22:01 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 14:22:03 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 14:22:11 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 14:23:03 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 14:23:34 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 14:23:47 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 14:24:23 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 14:24:27 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 14:30:55 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 14:31:23 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 14:32:00 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 14:32:08 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 14:32:13 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 14:32:28 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 14:32:32 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
+[28-Jun-2023 14:32:37 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\olsia\Local Sites\deval\app\public\wp-content\themes\dev.al-theme\template-parts\content-hero.php on line 22
