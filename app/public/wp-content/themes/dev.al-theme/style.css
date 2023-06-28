@@ -352,3 +352,120 @@ h1.destination-main-title {
 p.people-traveled-p {
   font-size: 14px;
 }
+
+.destination-section {
+  margin-bottom: 70px;
+}
+
+/* Booking */
+
+.booking-section {
+  margin-top: 70px;
+}
+
+.three-columns {
+  display: flex;
+}
+
+img.booking-image {
+  width: 300px;
+  max-height: 300px;
+  border-radius: 10px;
+}
+
+.first-column {
+  width: 50%;
+}
+
+.second-column {
+  width: 20%;
+}
+
+.third-column {
+  width: 30%;
+}
+
+h1.booking-header {
+  max-width: 50%;
+  padding-bottom: 20px;
+  font-size: 28px;
+}
+
+p.booking-paragraph {
+  max-width: 60%;
+  padding-top: 20px;
+  line-height: 25px;
+}
+
+h1.booking-car-title,
+.booking-hotel-title {
+  font-size: 28px;
+}
+
+.car-booking {
+  margin-bottom: 20px;
+}
+
+.car-booking,
+.hotel-booking {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+}
+
+p.booking-car-paragraph,
+p.booking-hotel-paragraph {
+  padding-bottom: 15px;
+  max-width: 61%;
+}
+
+.booking-hotel-link {
+  text-decoration: underline;
+  font-weight: bold;
+  position: relative;
+}
+
+.booking-hotel-link::after {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  width: 0.4em;
+  height: 0.4em;
+  border-top: 2px solid;
+  border-right: 2px solid;
+  transform: rotate(45deg);
+  top: 50%;
+  margin-left: 0.2em;
+  margin-top: -0.2em;
+}
+
+/* Media queries */
+
+/* Booking */
+
+@media (max-width: 1400px) {
+  .second-column {
+    width: 40%;
+  }
+  .third-column {
+    width: 30%;
+  }
+  .first-column {
+    width: 50%;
+  }
+  h1.booking-header {
+    max-width: 60%;
+  }
+  p.booking-paragraph {
+    max-width: 70%;
+  }
+  p.booking-car-paragraph,
+  p.booking-hotel-paragraph {
+    max-width: 85%;
+  }
+  .booking-section {
+    margin-bottom: 70px;
+  }
+}

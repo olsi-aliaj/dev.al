@@ -86,6 +86,22 @@ function register_custom_slider_post_type() {
 }
 add_action('init', 'register_custom_slider_post_type');
 
+function register_booking_block() {
+  if ( function_exists( 'acf_register_block_type' ) ) {
+    acf_register_block_type(
+      array(
+        'name'            => 'booking-block',
+        'title'           => __( 'Booking Block', 'dev.al-theme' ),
+        'description'     => __( 'A custom block for the booking section.', 'dev.al-theme' ),
+        'render_callback' => 'render_booking_block',
+        'category'        => 'common',
+        'icon'            => 'admin-comments',
+        'keywords'        => array( 'booking', 'section', 'dev.al-theme' ),
+      )
+    );
+  }
+}
+add_action( 'acf/init', 'register_booking_block' );
 
 
 ?>

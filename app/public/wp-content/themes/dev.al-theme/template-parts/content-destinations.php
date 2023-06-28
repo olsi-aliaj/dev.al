@@ -33,7 +33,6 @@ if ($destinations_query->have_posts()) :
                                 <img class="destination-background" src="<?php echo $destination_background_photo['url']; ?>" alt="<?php echo $destination_background_photo['alt']; ?>">
                             </div>
                         <?php endif; ?>
-
                         <div class="slide-content">
                             <h2><?php echo $destination_header; ?></h2>
                             <div class="flag-text">
@@ -43,32 +42,17 @@ if ($destinations_query->have_posts()) :
                                     </div>
                                 <?php endif; ?>
                                 <p ><?php echo $destination_location; ?></p>
-
-                            </div>
-                        
-                            <p class="people-traveled-p"><?php echo $destination_people_traveled; ?> People Traveled</p>
-                            
-                    
+                            </div>             
+                            <p class="people-traveled-p"><?php echo $destination_people_traveled; ?> People Traveled</p>         
                         </div>
-
                     </div>
                 <?php endwhile; ?>
             </div>
-
-          
-
             <!-- If we need navigation buttons -->
-            <
                 <div class="swiper-button-prev"></div>
                 <div class="swiper-button-next"></div>
-           
-           
-
-         
         </div>
     </div>
-   
-
     <?php
     // Reset the query
     wp_reset_postdata();
@@ -76,15 +60,21 @@ endif;
 ?>
 
 <script>
- var swiper = new Swiper('.swiper', {
+var swiper = new Swiper('.swiper', {
   slidesPerView: 4, // Number of slides to show at a time
- 
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
   },
-});
+  observer: true, // Enable observer
+  observeParents: true, // Observe parent elements
 
+  breakpoints: {
+    1250: {
+      slidesPerView: 3, // Update slidesPerView to 3 when screen width is 1400px or less
+    }
+  }
+});
 
 
 </script>
