@@ -559,6 +559,62 @@ p.gallery-paragraph {
   z-index: 2;
 }
 
+/* Testimonials */
+
+.testimonial {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 100px;
+}
+
+.left-column-testimonial {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.testimonial-rating {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+}
+
+h1.testimonial-header {
+  font-size: 28px;
+}
+p.testimonial-paragraph {
+  max-width: 40%;
+  line-height: 25px;
+}
+
+.rating {
+  font-size: 24px;
+}
+
+.filled-star:before {
+  content: "\2605";
+  color: gold;
+}
+
+.empty-star:before {
+  content: "\2606";
+  color: gray;
+}
+
+.number-rating {
+  font-size: 24px;
+}
+
+p.star-rating {
+  font-size: 18px;
+  font-weight: 400;
+}
+
 /* Media queries */
 
 @media (max-width: 1400px) {
