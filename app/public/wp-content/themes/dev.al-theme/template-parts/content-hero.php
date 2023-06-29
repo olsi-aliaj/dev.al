@@ -30,10 +30,11 @@ ob_start();
       <?php if ( $button_text ) : ?>
         <a href="#" class="hero-button"><?php echo esc_html( $button_text ); ?></a>
       <?php endif; ?>
+      <!-- Dislays the calendar on hero -->
+    <?php  get_template_part( 'template-parts/content', 'calendar' );?>
     </div>
      
-
-  <?php  get_template_part( 'template-parts/content', 'calendar' );?>
+  
   </section>
 
   <?php

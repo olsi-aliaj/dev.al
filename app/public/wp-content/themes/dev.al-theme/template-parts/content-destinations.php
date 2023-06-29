@@ -43,7 +43,7 @@ if ($destinations_query->have_posts()) :
                                 <?php endif; ?>
                                 <p ><?php echo $destination_location; ?></p>
                             </div>             
-                            <p class="people-traveled-p"><?php echo $destination_people_traveled; ?> People Traveled</p>         
+                            <p class="people-traveled-p"><?php echo $destination_people_traveled; ?> </p>         
                         </div>
                     </div>
                 <?php endwhile; ?>

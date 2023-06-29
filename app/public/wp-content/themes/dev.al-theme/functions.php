@@ -120,5 +120,41 @@ function register_gallery_block() {
 }
 add_action( 'acf/init', 'register_gallery_block' );
 
+function create_calendar_post_type() {
+  $labels = array(
+      'name'               => 'Calendar Event',
+      'singular_name'      => 'Calendar Event',
+      'menu_name'          => 'Calendar Event',
+      'name_admin_bar'     => 'Calendar Event',
+      'add_new'            => 'Add New',
+      'add_new_item'       => 'Add New Calendar Event',
+      'new_item'           => 'New Calendar Event',
+      'edit_item'          => 'Edit Calendar Event',
+      'view_item'          => 'View Calendar Event',
+      'all_items'          => 'All Calendar Events',
+      'search_items'       => 'Search Calendar Events',
+      'parent_item_colon'  => 'Parent Calendar Event:',
+      'not_found'          => 'No Calendar Event found.',
+      'not_found_in_trash' => 'No Calendar Event found in Trash.'
+  );
+
+  $args = array(
+      'labels'             => $labels,
+      'public'             => true,
+      'publicly_queryable' => true,
+      'show_ui'            => true,
+      'show_in_menu'       => true,
+      'query_var'          => true,
+      'rewrite'            => array( 'slug' => 'calendar_event' ),
+      'capability_type'    => 'post',
+      'has_archive'        => true,
+      'menu_icon'          => 'dashicons-calendar-alt',
+      'supports'           => array( 'title', 'editor', 'thumbnail' )
+  );
+
+  register_post_type( 'calendar_event', $args );
+}
+add_action( 'init', 'create_calendar_post_type' );
+
 
 ?>

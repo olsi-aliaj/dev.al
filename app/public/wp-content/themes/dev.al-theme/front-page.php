@@ -25,7 +25,6 @@ while ( have_posts() ) :
     get_template_part( 'template-parts/content', 'gallery' );
     //Output Testimonial section.
     get_template_part( 'template-parts/content', 'testimonial' );
-
     ?>
        
   </article>
