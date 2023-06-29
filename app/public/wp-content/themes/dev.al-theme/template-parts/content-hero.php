@@ -31,6 +31,9 @@ ob_start();
         <a href="#" class="hero-button"><?php echo esc_html( $button_text ); ?></a>
       <?php endif; ?>
     </div>
+     
+
+  <?php  get_template_part( 'template-parts/content', 'calendar' );?>
   </section>
 
   <?php
