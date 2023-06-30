@@ -61,13 +61,24 @@ endif;
 
 <script>
 var swiper = new Swiper('.swiper', {
-  slidesPerView: 3, // Number of slides to show at a time
+  slidesPerView: 4,
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
   },
-
+  breakpoints: {
+    200: {
+      slidesPerView: 1
+    },
+    800: {
+      slidesPerView: 2
+    },
+    1200: {
+      slidesPerView: 3
+    },
+    1600: {
+      slidesPerView: 4
+    }
+  }
 });
-
-
 </script>
