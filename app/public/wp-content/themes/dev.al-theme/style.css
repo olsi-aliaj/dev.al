@@ -684,6 +684,9 @@ p.star-rating {
 }
 
 @media (max-width: 1200px) {
+  p.features-paragraph {
+    max-width: 100% !important;
+  }
   p.booking-paragraph {
     max-width: 100%;
   }
@@ -887,8 +890,8 @@ p.star-rating {
 @media (max-width: 480px) {
   img.gallery-photo,
   .nd-big {
-    width: auto;
     height: 250px;
+    width: 350px !important;
   }
   .top-footer {
     flex-direction: column;
@@ -900,5 +903,37 @@ p.star-rating {
   }
   .top-footer.container {
     padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .event-section {
+    margin-top: 50px;
+  }
+  .three-columns.container {
+    gap: 25px;
+  }
+  .main-features {
+    gap: 10px;
+  }
+  img.icon-image {
+    width: 30px;
+  }
+  .four-column,
+  .gallery-heading {
+    padding-top: 30px;
+  }
+  .logo-text {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-height: 800px) and (max-width: 1000px) {
+  .four-column,
+  .gallery-heading {
+    padding-top: 30px;
+  }
+  p.booking-paragraph {
+    padding-bottom: 25px;
   }
 }
